@@ -30,13 +30,13 @@ if ($user_valid) {
 		}
 	} else {
 		echo "<script>
-		alert('Password Salah');
+		alert('Invalid username or password!');
 		document.location = 'index.php';
 	</script>";
 	}
 } else {
 	echo "<script>
-		alert('Username Salah');
+		alert('Invalid username or password!');
 		document.location = 'index.php';
 	</script>";
 }
